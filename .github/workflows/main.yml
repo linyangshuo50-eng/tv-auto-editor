@@ -48,5 +48,5 @@ jobs:
 
       - name: 运行主程序
         run: |
-          python -m modules.main
+          python app/main.py
         continue-on-error: true
